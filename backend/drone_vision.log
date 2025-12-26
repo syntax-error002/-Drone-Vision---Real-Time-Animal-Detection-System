@@ -1,0 +1,167 @@
+2025-12-26 18:50:46,474 - __main__ - INFO - Initializing YOLOv8 Model (Large) for optimal accuracy...
+2025-12-26 18:50:48,158 - __main__ - INFO - ============================================================
+2025-12-26 18:50:48,159 - __main__ - INFO - Drone Vision Backend - Research Edition
+2025-12-26 18:50:48,159 - __main__ - INFO - Real-Time Animal Detection System
+2025-12-26 18:50:48,159 - __main__ - INFO - ============================================================
+2025-12-26 18:50:48,159 - __main__ - INFO - Model: YOLOv8-Large
+2025-12-26 18:50:48,159 - __main__ - INFO - Target FPS: 15
+2025-12-26 18:50:48,159 - __main__ - INFO - Frame Skip Rate: 2
+2025-12-26 18:50:48,159 - __main__ - INFO - Confidence Threshold: 0.25
+2025-12-26 18:50:48,159 - __main__ - INFO - ============================================================
+2025-12-26 18:50:48,160 - __main__ - INFO - Starting server on 0.0.0.0:5000...
+2025-12-26 18:50:48,203 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.205:5000
+2025-12-26 18:50:48,203 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-26 18:54:40,943 - __main__ - INFO - Request processed in 1095.70ms (preprocessing: 228.96ms, inference: 452.61ms), detections: 1
+2025-12-26 18:54:40,954 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:40] "POST /predict HTTP/1.1" 200 -
+2025-12-26 18:54:50,957 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:50] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:52,150 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:52] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:53,263 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:53] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:54,380 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:54] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:55,572 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:55] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:56,792 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:56] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:57,999 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:57] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:54:59,226 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:54:59] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:00,459 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:00] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:01,672 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:01] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:02,887 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:02] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:04,084 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:04] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:05,306 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:05] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:06,495 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:06] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:07,709 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:07] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:08,859 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:08] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:10,054 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:10] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:11,226 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:11] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:12,393 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:12] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:13,625 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:13] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:14,815 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:14] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:15,968 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:15] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:17,088 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:17] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:18,359 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:18] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:19,595 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:19] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:20,785 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:20] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:21,992 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:21] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:23,189 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:23] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:24,409 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:24] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:25,555 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:25] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:26,831 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:26] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:28,097 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:28] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:29,264 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:29] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:30,406 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:30] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:31,612 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:31] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:32,776 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:32] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:33,968 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:33] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:35,252 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:35] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:36,518 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:36] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:37,761 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:37] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:39,041 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:39] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:40,151 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:40] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:41,308 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:41] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:42,601 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:42] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:43,895 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:43] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:45,147 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:45] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:55:46,317 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:55:46] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:57:59,096 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:57:59] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:00,524 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:00] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:01,906 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:01] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:03,150 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:03] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:04,420 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:04] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:05,618 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:05] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:06,852 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:06] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:08,029 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:08] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:09,406 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:09] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:10,714 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:10] "POST /stream HTTP/1.1" 200 -
+2025-12-26 18:58:16,459 - __main__ - INFO - Request processed in 655.75ms (preprocessing: 55.39ms, inference: 415.58ms), detections: 2
+2025-12-26 18:58:16,468 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:16] "POST /predict HTTP/1.1" 200 -
+2025-12-26 18:58:22,670 - __main__ - INFO - Request processed in 656.49ms (preprocessing: 58.97ms, inference: 430.20ms), detections: 1
+2025-12-26 18:58:22,676 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:22] "POST /predict HTTP/1.1" 200 -
+2025-12-26 18:58:24,688 - __main__ - INFO - Request processed in 728.13ms (preprocessing: 63.23ms, inference: 418.05ms), detections: 1
+2025-12-26 18:58:24,698 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 18:58:24] "POST /predict HTTP/1.1" 200 -
+2025-12-26 19:03:43,587 - werkzeug - INFO - 192.168.31.205 - - [26/Dec/2025 19:03:43] "GET / HTTP/1.1" 200 -
+2025-12-26 19:03:43,666 - werkzeug - INFO - 192.168.31.205 - - [26/Dec/2025 19:03:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 19:18:54,064 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:18:54] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:18:55,599 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:18:55] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:18:56,919 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:18:56] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:18:58,252 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:18:58] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:18:59,499 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:18:59] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:00,826 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:00] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:02,114 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:02] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:03,362 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:03] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:04,622 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:04] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:05,907 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:05] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:07,180 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:07] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:08,332 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:08] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:09,535 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:09] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:10,750 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:10] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:11,951 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:11] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:13,223 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:13] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:14,389 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:14] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:15,628 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:15] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:16,903 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:16] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:18,093 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:18] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:19,300 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:19] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:20,515 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:20] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:21,896 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:21] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:23,165 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:23] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:24,617 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:24] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:25,839 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:25] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:27,057 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:27] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:28,296 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:28] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:29,529 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:29] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:30,697 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:30] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:31,964 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:31] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:33,245 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:33] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:34,493 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:34] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:35,704 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:35] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:36,964 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:36] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:38,226 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:38] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:39,395 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:39] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:40,588 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:40] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:41,809 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:41] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:43,017 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:43] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:44,289 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:44] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:45,581 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:45] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:46,811 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:46] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:19:48,156 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:19:48] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:16,695 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:16] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:17,981 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:17] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:19,258 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:19] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:20,634 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:20] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:21,978 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:21] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:23,355 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:23] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:24,656 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:24] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:25,968 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:25] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:27,285 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:27] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:28,683 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:28] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:29,988 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:29] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:31,311 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:31] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:32,713 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:32] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:33,994 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:33] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:35,285 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:35] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:36,563 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:36] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:37,947 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:37] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:39,279 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:39] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:40,589 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:40] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:41,835 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:41] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:43,070 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:43] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:44,344 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:44] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:45,577 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:45] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:46,828 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:46] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:48,144 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:48] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:49,409 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:49] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:50,755 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:50] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:52,136 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:52] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:53,407 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:53] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:54,723 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:54] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:55,961 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:55] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:57,291 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:57] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:58,614 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:58] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:20:59,923 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:20:59] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:21:01,161 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:21:01] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:21:02,579 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:21:02] "POST /stream HTTP/1.1" 200 -
+2025-12-26 19:21:08,619 - __main__ - INFO - Request processed in 685.61ms (preprocessing: 57.78ms, inference: 424.07ms), detections: 4
+2025-12-26 19:21:08,627 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:21:08] "POST /predict HTTP/1.1" 200 -
+2025-12-26 19:21:11,925 - __main__ - INFO - Request processed in 734.59ms (preprocessing: 54.62ms, inference: 410.88ms), detections: 4
+2025-12-26 19:21:11,932 - werkzeug - INFO - 127.0.0.1 - - [26/Dec/2025 19:21:11] "POST /predict HTTP/1.1" 200 -

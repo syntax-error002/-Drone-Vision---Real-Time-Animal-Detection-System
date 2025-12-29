@@ -1,0 +1,16 @@
+2025-12-29 13:31:35,076 - __main__ - INFO - Initializing YOLOv8 Model (Large) for optimal accuracy...
+2025-12-29 13:31:36,125 - __main__ - INFO - ============================================================
+2025-12-29 13:31:36,126 - __main__ - INFO - Drone Vision Backend - Research Edition
+2025-12-29 13:31:36,126 - __main__ - INFO - Real-Time Animal Detection System
+2025-12-29 13:31:36,126 - __main__ - INFO - ============================================================
+2025-12-29 13:31:36,126 - __main__ - INFO - Model: YOLOv8-Large
+2025-12-29 13:31:36,126 - __main__ - INFO - Target FPS: 15
+2025-12-29 13:31:36,127 - __main__ - INFO - Frame Skip Rate: 2
+2025-12-29 13:31:36,127 - __main__ - INFO - Confidence Threshold: 0.25
+2025-12-29 13:31:36,127 - __main__ - INFO - ============================================================
+2025-12-29 13:31:36,127 - __main__ - INFO - Starting server on 0.0.0.0:5000...
+2025-12-29 13:31:36,180 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.71.49:5000
+2025-12-29 13:31:36,180 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

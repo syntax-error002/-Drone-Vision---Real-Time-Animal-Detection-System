@@ -8,7 +8,7 @@ import * as Speech from 'expo-speech';
 
 // Configure API URL - Update this to match your server
 // Using localhost because ADB reverse tethering is active (USB Debugging)
-const API_URL = 'http://127.0.0.1:5000';
+const API_URL = 'http://10.21.71.49:5000'; // Updated to local IP for physical device connection
 const PREDICT_ENDPOINT = `${API_URL}/predict`;
 const STREAM_ENDPOINT = `${API_URL}/stream`;
 
